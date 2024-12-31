@@ -1,0 +1,91 @@
+{
+  "filiere": {
+    "id": 1,
+    "nom": "Informatique",
+    "description": "Formation en informatique et développement logiciel, couvrant la programmation, les bases de données, et d'autres domaines liés aux technologies de l'information.",
+    "matieres": [
+      {
+        "id": 1,
+        "nom": "Programmation",
+        "description": "Introduction aux concepts de programmation, y compris les langages et les techniques de développement logiciel.",
+        "competences": [
+          {
+            "id": 1,
+            "nom": "Maîtriser les bases du JavaScript",
+            "description": "Comprendre les concepts de base du langage JavaScript, y compris la déclaration de variables, les types de données et la gestion des erreurs.",
+            "exercices": [
+              {
+                "id": 1,
+                "titre": "Variables et Types",
+                "description": "Apprendre à déclarer des variables et à utiliser différents types de données en JavaScript."
+              },
+              {
+                "id": 2,
+                "titre": "Les boucles",
+                "description": "Comprendre l'utilisation des boucles pour répéter des actions dans un programme."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "nom": "Comprendre les fonctions JavaScript",
+            "description": "Savoir déclarer, utiliser et manipuler des fonctions pour organiser le code et effectuer des tâches répétitives.",
+            "exercices": [
+              {
+                "id": 3,
+                "titre": "Fonctions simples",
+                "description": "Écrire une fonction simple qui prend un paramètre et retourne un résultat."
+              },
+              {
+                "id": 4,
+                "titre": "Fonctions et paramètres",
+                "description": "Utiliser des paramètres dans les fonctions pour rendre le code plus flexible et réutilisable."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nom": "Base de données",
+        "description": "Introduction à la conception, à la gestion et à l'interrogation de bases de données relationnelles en utilisant SQL.",
+        "competences": [
+          {
+            "id": 3,
+            "nom": "Concevoir des bases de données",
+            "description": "Créer des bases de données bien structurées en définissant des tables, des relations, et des clés primaires.",
+            "exercices": [
+              {
+                "id": 5,
+                "titre": "Modélisation",
+                "description": "Créer un modèle relationnel pour une application spécifique, en définissant les entités et leurs relations."
+              },
+              {
+                "id": 6,
+                "titre": "Relations entre tables",
+                "description": "Établir des relations entre les différentes tables d'une base de données pour assurer la cohérence des données."
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "nom": "Interroger une base de données",
+            "description": "Utiliser SQL pour effectuer des requêtes de sélection, d'insertion, de mise à jour et de suppression de données.",
+            "exercices": [
+              {
+                "id": 7,
+                "titre": "Requêtes SQL de base",
+                "description": "Écrire des requêtes SQL simples pour récupérer des données d'une table."
+              },
+              {
+                "id": 8,
+                "titre": "Requêtes SQL avancées",
+                "description": "Utiliser des jointures, des sous-requêtes et des filtres pour extraire des informations complexes de plusieurs tables."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
