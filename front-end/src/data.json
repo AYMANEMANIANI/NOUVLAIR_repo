@@ -1,0 +1,52 @@
+ {
+    "Groupes": [
+      {
+        "id_Groupe": 1,
+        "nom_group": "Développement Digital 101",
+        "nombreEtudiants": 20,
+        "Filières": [
+          {
+            "id_Filiere": 1,
+            "nom_Filiere": "Développement Digital",
+            "description": "Formation en développement digital incluant les concepts front-end et back-end"
+          }
+        ]
+      },
+      {
+        "id_Groupe": 2,
+        "nom_group": "Développement Digital 201",
+        "nombreEtudiants": 24,
+        "Filières": [
+          {
+            "id_Filiere": 1,
+            "nom_Filiere": "Développement Digital",
+            "description": "Formation en développement digital incluant les concepts front-end et back-end"
+          }
+        ]
+      },
+      {
+        "id_Groupe": 3,
+        "nom_group": "Infrastructure Digitale 101",
+        "nombreEtudiants": 30,
+        "Filières": [
+          {
+            "id_Filiere": 2,
+            "nom_Filiere": "Infrastructure Digitale",
+            "description": "Apprentissage des infrastructures digitales et des systèmes d'information"
+          }
+        ]
+      },
+      {
+        "id_Groupe": 4,
+        "nom_group": "Infrastructure Digitale 201",
+        "nombreEtudiants": 21,
+        "Filières": [
+          {
+            "id_Filiere": 2,
+            "nom_Filiere": "Infrastructure Digitale",
+            "description": "Apprentissage des infrastructures digitales et des systèmes d'information"
+          }
+        ]
+      } 
+    ]
+  }

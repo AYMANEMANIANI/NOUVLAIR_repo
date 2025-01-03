@@ -1,0 +1,70 @@
+/* Search bar styling */
+.search-bar {
+    margin: auto;
+    width: 30%; /* Set a fixed width for consistency */
+    padding: 10px 15px; /* Adjust padding for better appearance */
+    border: 1px solid #4C9CE9; /* Match border thickness */
+    border-radius: 20px; /* Rounded corners */
+    outline: none;
+    font-size: 14px;
+    color: #4C9CE9; /* Match the text color */
+  }
+  
+  .search-bar::placeholder {
+    color: #aaa; /* Placeholder color */
+  }
+  
+  .search-bar:focus {
+    border-color: #4C9CE9; /* Keep border color consistent with the design */
+    box-shadow: 0 0 5px rgba(76, 156, 233, 0.5); /* Add subtle focus effect */
+  }
+  
+  /* Header styling */
+  .header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Logo styling */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  /* User info styling */
+  .user-info {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #4C9CE9, #9AD9FF);
+    padding: 18px 4%;
+    border-radius: 120px 0px 0px 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .user-info .user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  @media screen and (min-width: 768px) {
+    .sidebar-text {
+      display: inline;
+    }
+  }
+  

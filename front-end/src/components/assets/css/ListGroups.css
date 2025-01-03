@@ -1,0 +1,128 @@
+.containerListGroups {
+    /* display: grid;
+    grid-template-areas:
+      "header header"
+      "sidebar main"
+      "footer footer";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh; */
+    display: flex !important;
+    justify-content: center !important;
+    width: 100%;
+
+  }
+
+  .sidebar {
+    grid-area: sidebar;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+    transition: all 0.3s ease;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .sidebar-text {
+    margin-left: 10px;
+    display: none;
+  }
+  
+  .main-content {
+    grid-area: main;
+    padding: 20px;
+    
+  }
+
+  
+  /* Table Styling */
+  .group-list table {
+    /* border-collapse: collapse; Remove gaps between table cells */
+    width: 100%; /* Full width */
+    border: 1px solid #ddd;
+    border-radius: 20px !important;
+  }
+  
+  table th,
+  table td {
+    padding: 12px; /* Add space inside cells */
+    text-align: left; /* Align text to the left */
+  }
+  
+  table th {
+    background-color: #e6e6ff; /* Light purple for headers */
+    font-weight: bold; /* Bold text for header */
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f5f5ff; /* Light purple for even rows */
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: white; /* White for odd rows */
+  }
+
+  
+  /* Heading Styling */
+  .main-content h2 {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Vertically align the text and icon */
+    border: 2px solid #4C9CE9; /* Blue border */
+    padding: 10px; /* Inner spacing */
+    border-radius: 20px; /* Rounded corners */
+    color: #4C9CE9; /* Blue text color */
+    font-size: 20px; /* Adjust font size */
+    font-weight: bold; /* Bold text */
+    width: 70%;
+margin: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+  }
+
+
+  .main-content h1 {
+
+    display: flex;
+    justify-items: center;
+    padding: 10px; /* Inner spacing */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 20px; /* Adjust font size */
+    font-weight: bold; /* Bold text */
+    background-color: #EAE8FF;
+    width: 80%;
+    margin: 0 auto; /* Center h1 element */
+  }
+  
+  /* Button Styling */
+  .button-listgroup {
+    background-color: #4C9CE9; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 50%; /* Round shape */
+    width: 30px; /* Width of the button */
+    height: 30px; /* Height of the button */
+    cursor: pointer; /* Pointer cursor */
+    margin: 10px;
+  }
+  
+  .buttons{
+
+  }
+  button.delete-btn {
+    background-color: #ff4c61; /* Red background for delete */
+  }
+  
+  button.edit-btn {
+    background-color: #4C9CE9; /* Blue background for edit */
+  }
